@@ -1,0 +1,8 @@
+<h1>Dynamic page with erb</h1>
+  <% sum = 0 %>
+  <% for i in 1..5 %>
+  <%= "#{i} " %>
+  <% sum = sum + i %>
+<%end%>
+<p>The sum is: <%="#{sum}" %>
+</p>
